@@ -1,0 +1,21 @@
+[
+    {"firstName": "Charlie",
+    "lastName": "Hamilton",
+     "email": "thamilton@example.com",
+     "phone": "909-761-1234",
+     "birthDate": "1988-02-13",
+     "notes": "Use email not phone"},
+    {"firstName": "Lucille",
+    "lastName": "Suarez",
+     "email": "lsuarez@example.com",
+     "phone": "909-555-1234",
+     "birthDate": "1990-11-22",
+     "notes": "Best time to call is evening"},
+    {"firstName": "Steve",
+    "lastName": "Williams",
+     "email": "swilliams@example.com",
+     "phone": "909-345-1234",
+     "birthDate": "1983-07-05",
+     "notes": "Available during the daytime"}
+  ]
+

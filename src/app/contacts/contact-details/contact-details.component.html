@@ -1,0 +1,36 @@
+<div class="container-fluid">
+  <p *ngIf="loading">
+    loading...
+  </p>
+  <p *ngIf="!loading && !contactFound">
+    Contact not found
+  </p>
+  <table *ngIf="!loading && contactFound" class="table">
+    <tbody>
+      <tr>
+        <td><strong>First Name</strong></td>
+        <td>{{selected.firstName}}</td>
+        </tr>
+        <tr>
+        <td><strong>Last Name</strong></td>
+        <td>{{selected.lastName}}</td>
+        </tr>
+        <tr>
+        <td><strong>Email</strong></td>
+        <td>{{selected.email}}</td>
+        </tr>
+        <tr>
+        <td><strong>Phone</strong></td>
+        <td>{{selected.phone}}</td>
+        </tr>
+        <tr>
+        <td><strong>Date Of Birth</strong></td>
+        <td>{{selected.birthDate}}</td>
+        </tr>
+        <tr>
+        <td><strong>Notes</strong></td>
+        <td>{{selected.notes}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

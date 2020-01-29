@@ -1,0 +1,19 @@
+<div class="container-fluid">
+  <div class="form-inline">
+    <div class="form-group">
+        <label for="angular_search_input">Search</label>
+        <input [(ngModel)]="query" type="search" placeholder="Search for contacts" class="form-control" id="angular_search_input">
+    </div>
+  </div>
+  <div>
+
+    <div class="row list-group" *ngFor="let contact of contacts | searchFilter: query">
+      <a [routerLink]="['/details', contact.email]" routerLinkActive="active" class="list-group-item">
+        <h4 class="list-group-item-heading">{{contact.firstName}} {{contact.lastName}}</h4>
+        <p class="list-group-item-text">{{contact.email}}</p>
+        <p class="list-group-item-text">{{contact.phone}}</p>
+    </a>
+    </div>
+    <a (click)="refreshContactList()" class="row btn btn-link">Reset Default Data</a>
+  </div>
+</div>
