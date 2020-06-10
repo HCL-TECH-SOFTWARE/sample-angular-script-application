@@ -100,7 +100,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Support
 
-This software is provided "AS-IS" without warrenty of any kind, expressed or implied. 
+This software is provided "AS-IS" without warranty of any kind, expressed or implied. 
 
 
 ## License
