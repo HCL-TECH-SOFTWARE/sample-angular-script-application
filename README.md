@@ -6,11 +6,11 @@ This sample illustrates building an Angular CLI application and deploying it as 
 
 [Angular CLI](https://cli.angular.io/) is a command line tool that allows developers to quickly get their applications up and running. This sample showcases a simple contact list written in [Angular 8](https://angular.io/).
 
-With the HCL Script Application, any JavaScript framework application can be imported as a JSR-286 portlet and hosted on HCL Digital Experience. Since the sample application is platform agnostic, the same code can be run as a portlet or mobile app, allowing reuse over multiple devices and platforms.
+With the HCL DX Script Application, any JavaScript framework application can be imported as a JSR-286 portlet and hosted on HCL Digital Experience. Since the sample application is platform agnostic, the same code can be run as a portlet or mobile app, allowing reuse over multiple devices and platforms.
 
 ### Target audience
 
-This article is intended for developers and architects, with an existing background knowledge of Angular and HCL Script Application. 
+This article is intended for developers and architects, with an existing background knowledge of Angular and HCL DX Script Application. 
 
 ### Requirements
 
@@ -24,7 +24,7 @@ This article is intended for developers and architects, with an existing backgro
 
 ### Description
 
-This is an example of a simple application built with Angular CLI and the Bootstrap CSS library. It can run standalone with the `ng serve` command, and it can be imported into an HCL Script Application. It's an example of a Single Page Application (SPA), where the different views within a single index.html page are dynamically loaded by the Angular framework. When used in a Script Application, a SPA is displayed as one portlet on a page, possibly alongside other portlets. 
+This is an example of a simple application built with Angular CLI and the Bootstrap CSS library. It can run standalone with the `ng serve` command, and it can be imported into an HCL DX Script Application. It's an example of a Single Page Application (SPA), where the different views within a single index.html page are dynamically loaded by the Angular framework. When used in a Script Application, a SPA is displayed as one portlet on a page, possibly alongside other portlets. 
 
 Here are the key features illustrated in the sample:
 
