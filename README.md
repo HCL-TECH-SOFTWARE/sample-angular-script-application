@@ -43,7 +43,10 @@ To set up this sample:
 ### Configure
 
 HCL Digital Experience
-* Set (or create) both the `dynamic.parameter.tag.enabled` and the `renderingplugin.shortform.enabled` [resource environment provider](https://help.hcltechsw.com/digital-experience/8.5/admin-system/adsetcfg.html) values of the `WCM WCMConfigService` service to `false` in the HCL Digital Experience Integrated Solutions Console, as this feature can interfere with Angular code that uses square brackets. Make sure to restart the `WebSphere_Portal` server after these updates. Click [here](https://help.hcltechsw.com/digital-experience/8.5/wcm/wcm_tags_behavior.html) for more information on these settings.
+* Set (or create) both the `dynamic.parameter.tag.enabled` and the `renderingplugin.shortform.enabled` [resource environment provider](https://help.hcltechsw.com/digital-experience/8.5/admin-system/adsetcfg.html) values of the `WCM WCMConfigService` service to `false` in the HCL Digital Experience Integrated Solutions Console, as this feature can interfere with Angular code that uses square brackets. 
+Starting with CF201 a configuration task can be used instead - for details see: [here]{https://help.hcltechsw.com/digital-experience/8.5/script-portlet/script_app_improvements.html?hl=react#script_app_improvements__section_mhm_pzw_3sb}
+
+Make sure to restart the `WebSphere_Portal` server after these updates. Click [here](https://help.hcltechsw.com/digital-experience/8.5/wcm/wcm_tags_behavior.html) for more information on these settings.
 * The Angular router requires the `HTML` `base` tag to be present on the page. Do this by setting the theme parameter `com.ibm.portal.theme.hasBaseURL` to `true`. The XML script to do this can be found [here](https://help.hcltechsw.com/digital-experience/8.5/wcm/prevent_friendly_url_redirects.html), and can be imported using the [Administration portlet](https://help.hcltechsw.com/digital-experience/8.5/admin-system/adxmltsk_portlets_imp.html).
 
 ### Develop
